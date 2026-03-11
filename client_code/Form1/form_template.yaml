@@ -12,7 +12,12 @@ components:
     name: label_2
     properties: {text: Server reply}
     type: Label
-  - layout_properties: {grid_position: 'LTTYHU,WSZGFQ'}
+  - layout_properties: {grid_position: 'FHFIXD,BLRULU'}
+    name: text_box_2
+    properties: {}
+    type: TextBox
+  - event_bindings: {}
+    layout_properties: {grid_position: 'LTTYHU,WSZGFQ'}
     name: button_1
     properties: {text: send text to server}
     type: Button
