@@ -23,7 +23,7 @@ components:
     type: Button
   - layout_properties: {grid_position: 'TIJZGV,ZUBROA'}
     name: label_3
-    properties: {text: Please load Cat or Dog image and press 'Predict}
+    properties: {text: Please load snake image and press 'Predict'}
     type: Label
   - layout_properties: {grid_position: 'UYUXGH,SGUYOQ'}
     name: outlined_card_1
