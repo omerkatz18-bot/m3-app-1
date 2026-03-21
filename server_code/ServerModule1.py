@@ -1,5 +1,15 @@
 import anvil.server
+import anvil._threaded_server
 
+class DummyTracer:
+  def start_as_current_span(self, name):
+    from contextlib import contextmanager
+    @contextmanager
+    def dummy(): yield
+    return dummy()
+
+# Replace the tracer function with our dummy
+anvil._threaded_server.ensure_anvil_tracer = lambda: DummyTracer()
 # This is a server module. It runs on the Anvil server,
 # rather than in the user's browser.
 #

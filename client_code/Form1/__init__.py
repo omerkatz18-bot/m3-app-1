@@ -1,6 +1,8 @@
+import anvil.server
 from ._anvil_designer import Form1Template
 from anvil import *
-import anvil.server
+
+
 
 class Form1(Form1Template):
   def __init__(self, **properties):
@@ -27,4 +29,9 @@ class Form1(Form1Template):
         self.image_loaded.source = uploaded_image
         result = anvil.server.call('predict_image', uploaded_image)
         self.prediction_text_box.text = result
+
+  @handle("text_box_1", "pressed_enter")
+  def text_box_1_pressed_enter(self, **event_args):
+    """This method is called when the user presses Enter in this text box"""
+    pass
 
