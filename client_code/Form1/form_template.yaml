@@ -7,11 +7,11 @@ components:
   name: label_1
   properties: {text: Enter text to send to the server}
   type: Label
-- layout_properties: {slot: top-left-btn}
+- layout_properties: {slot: left-nav}
   name: text_box_1
-  properties: {}
+  properties: {visible: false}
   type: TextBox
-- layout_properties: {slot: title}
+- layout_properties: {slot: top-left-btn}
   name: label_2
   properties: {}
   type: Label
