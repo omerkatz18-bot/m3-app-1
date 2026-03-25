@@ -1,8 +1,4 @@
-components:
-- layout_properties: {slot: default}
-  name: label_1
-  properties: {visible: false}
-  type: Label
+components: []
 container:
   properties: {html: '@theme:standard-page.html', visible: true}
   type: HtmlTemplate
