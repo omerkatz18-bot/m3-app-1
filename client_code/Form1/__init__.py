@@ -25,3 +25,7 @@ class Form1(Form1Template):
         result = anvil.server.call('predict_image', uploaded_image)
         self.prediction_text_box.text = result
 
+  def file_loader_1_change(self, file, **event_args):
+    """This method is called when a new file is loaded into this FileLoader"""
+    pass
+
