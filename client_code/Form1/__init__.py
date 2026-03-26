@@ -12,14 +12,6 @@ class Form1(Form1Template):
 
 
 @handle("button_1", "click")
-
-def file_loader_1_change(self, file, **event_args):
-    """This method is called when a new file is loaded into this FileLoader"""
-    pass
-
-
-
-
 def button_1_click(self, **event_args):
   """This method is called when the button is clicked"""
   client_msg = self.text_box_1.text
