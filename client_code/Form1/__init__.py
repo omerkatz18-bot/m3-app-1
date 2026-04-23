@@ -29,3 +29,5 @@ class Form1(Form1Template):
       result = anvil.server.call('predict_image', uploaded_image)
       print(f"Received prediction result: {result}")  # לוג להצגת התוצאה מהפונקציה
       self.prediction_text_box.text = result
+
+      
