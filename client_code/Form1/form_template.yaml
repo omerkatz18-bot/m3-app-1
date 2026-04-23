@@ -29,11 +29,13 @@ components:
       name: label_3
       properties: {text: Please load snake image}
       type: Label
-    - layout_properties: {grid_position: 'LHGLAN,GFLUZU'}
+    - event_bindings: {}
+      layout_properties: {grid_position: 'LHGLAN,GFLUZU'}
       name: file_loader_1
       properties: {}
       type: FileLoader
-    - layout_properties: {grid_position: 'WSDSSM,GCLPOA'}
+    - event_bindings: {}
+      layout_properties: {grid_position: 'WSDSSM,GCLPOA'}
       name: image_loaded
       properties: {}
       type: Image
